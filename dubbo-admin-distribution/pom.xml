@@ -28,6 +28,10 @@
 
     <artifactId>dubbo-admin-distribution</artifactId>
 
+    <properties>
+        <skipTests>true</skipTests>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.dubbo</groupId>
